@@ -24,7 +24,7 @@
 
 ## Notas
 
--   Este reto esta supeeer fácil!! Pero si estas un poquito perdida, puedes mirar nuestras presentaciones pasadas para guiarte un poco.
+-   Este reto esta supeeer fácil!! Pero si estas un poquito perdida o perdido, puedes mirar nuestras presentaciones pasadas para guiarte un poco.
     [Presentación Frontend WWCode](https://docs.google.com/presentation/d/1j5gEiL3qnJG00DSaO3ZKF298CODaRWhrfxiTsDKH8FM/edit?usp=sharing)
 
 ## ¡¡NOS VEMOS EN EL RETO NÚMERO 2 PARA QUE VER EN QUE RESULTA ESTA FIESTA!!
