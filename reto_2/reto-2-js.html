@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX just js</title>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+<script type="text/javascript">
+
+    const rootElement = document.getElementById('root')
+
+    // Solo con JS
+
+    // - Contenedor
+    const container = document.createElement('div')
+    container.className = 'container'
+
+    // - Title
+    const title = document.createElement('h1')
+    title.textContent = "Cosas que amo"
+
+
+    // - Lista
+    const lista = document.createElement("ul")
+
+    // - Items
+    const item_1 = document.createElement("li")
+    item_1.textContent = "Amo el código"
+    const item_2 = document.createElement("li")
+    item_2.textContent = "Amo bailar"
+    const item_3 = document.createElement("li")
+    item_3.textContent = "Amo NO cocinar"
+
+
+    // - Insertando los elementos en sus correspondiente contenedores
+
+    lista.appendChild(item_1)
+    lista.appendChild(item_2)
+    lista.appendChild(item_3)
+
+
+    container.appendChild(title);
+    container.appendChild(lista)
+
+    // - Insertando todo en el root element de nuestro HTML
+    rootElement.appendChild(container) 
+
+</script>
+
+</html>
