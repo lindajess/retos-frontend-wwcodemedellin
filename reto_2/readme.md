@@ -17,9 +17,9 @@
 
     Dicho esto te dejo varios enlaces para que los revices y te guies en las realización de este reto:
 
-    [Presentación WWCode Sobre el tema](https://docs.google.com/presentation/d/1kASCX_6BAEqj1GRQiQ7IfI0WAIXrW7WZ0VIH8uaiyU0/edit?usp=sharing)
-    [Gits con ejemplo](https://gist.github.com/lindajess/cd90625fdc8a9cbda80d539452b41a09)
-    [Ejemplo resumido](https://www.instagram.com/p/CGs1Q1ejUSG/)
+    1. [Presentación WWCode Sobre el tema](https://docs.google.com/presentation/d/1kASCX_6BAEqj1GRQiQ7IfI0WAIXrW7WZ0VIH8uaiyU0/edit?usp=sharing)
+    2. [Gits con ejemplo](https://gist.github.com/lindajess/cd90625fdc8a9cbda80d539452b41a09)
+    3. [Ejemplo resumido](https://www.instagram.com/p/CGs1Q1ejUSG/)
 
     Ahora si, el reto
 
