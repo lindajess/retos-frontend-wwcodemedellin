@@ -6,8 +6,8 @@
 
 -   **Nombre:** Entendiendo la Herramienta (React)
 -   **Dificultad:** Intermedio
--   **Habilidades:** Concepto de DOM, html
--   **Descripción:** JS - JSX - React
+-   **Habilidades:** Concepto de DOM, html, JS, JSX y React
+-   **Descripción:**
 
     React es una herramientas muy completa y que hace que el desarrollo de componentes para frontend sea mucho más rápido y fácil que usando solo JS... sin embargo, usando solo React todavia tenemos algunos problemas, ya que aún se requiere mucho boilerplate (código) para manipular el DOM (no tanto como con JS, pero si)
 
@@ -27,7 +27,7 @@
 
 -   Es muy fácil, tienes 3 archivos `.html` el primero llamado `reto-2-js.html`, en este archivo vas a encontrar un script de Javascript que manipula el DOM para insertar varios elementos y llegar a este resultado:
 
-![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/tree/master/reto_2/resultado.png?raw=true)
+![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/blob/master/reto_2/resultado.png?raw=true)
 
 -   Lo que debes hacer es escribir el codigo React (solo) y React con JSX para llegar a ese exacto mismo resultado. Para eso te dejo los otros dos archivos `reto-2-react.html` y `reto-2-react-jsx.html` que ya estan listos con Babel para que uses React y JSX sin problemas en tu browser.
 
