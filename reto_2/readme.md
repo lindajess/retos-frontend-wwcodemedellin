@@ -31,6 +31,6 @@
 
 -   Lo que debes hacer es escribir el codigo React (solo) y React con JSX para llegar a ese exacto mismo resultado. Para eso te dejo los otros dos archivos `reto-2-react.html` y `reto-2-react-jsx.html` que ya estan listos con Babel para que uses React y JSX sin problemas en tu browser.
 
-## ¡¡NOS VEMOS EN EL RETO NÚMERO 2!!
+## ¡¡NOS VEMOS EN EL RETO FINAL!!
 
 # ¡¡DIVIÉRTANSE!!
