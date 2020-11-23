@@ -11,7 +11,7 @@
 
     La ubicación de los elementos del DOM en nuestra pantalla ha pasado de ser algo muy dificil, cuando se hacia con tablas y positioning, a ser algo relativamente fácil y divertido, ahora que se hace con Flex Box o CSS Grid.
 
-    Para nuestro reto usaremos CSS GRID, un sistema que nos permite definir el layout de nuestras páginas usando dos dimensiones (filas y columnas). Su ventaja reside en que evita que escribamos HTML para posicionar elementos; es decir, nuestra markup queda exento de esa responsabilidad y por esa rázon nuestro maquetado se simplifica y que DIVIII, como nos gusta. Además de eso, por su naturaleza bi-dimensional, el CSS que debe escribirse para ubicar elementos en lugares complejos, dentro de nuestro maquetado HTML, se vuelve algo super simple... Te daré un ejemplo:
+    Para nuestro reto usaremos CSS GRID, un sistema que nos permite definir el layout de nuestras páginas usando dos dimensiones (filas y columnas). Su ventaja reside en que evita que escribamos HTML para posicionar elementos; es decir, nuestra markup queda exento de esa responsabilidad y por esa rázon nuestro maquetado se simplifica y queda DIVIII, como nos gusta. Además de eso, por su naturaleza bi-dimensional, el CSS que debe escribirse para ubicar elementos en lugares complejos, dentro de nuestro maquetado HTML, se vuelve algo super simple... Te daré un ejemplo:
 
     Antes, cuando usabamos tablas para ubicar elementos, lo que debíamos hacer era escribir nuestro HTML de manera secuencial, es decir, si algo iba arriba, se escribía primero. Si no se hacía así todo se complicaba... y pensar en páginas responsive era casí imposible.
 
