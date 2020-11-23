@@ -17,11 +17,11 @@
 
     Ahora eso dejo de ser un problema ya que:
 
-    1. Yo puedo definir mi layout de la forma que yo quiera y SIN alterar el HTML.
+    1. Puedo definir mi layout de la forma que yo quiera y SIN alterar el HTML.
     2. Con mi layout ya definido, mis elementos HTML (Nodos del DOM) pueden ser ubicados en cualquier celda (fila, columna) definida con dicho layout.
-    3. Con CSS Grid puedo definir mi layout y dejar celdas vacias!!! Pero la forma del layout prevalece.
+    3. Con CSS Grid puedo definir mi layout y dejar celdas vacias!!! Y la forma del layout prevalece.
 
-    CSS Grid es muy fácil de usar, sin embargo vas a necesitar algunas propiedades de CSS que tal vez no conozcas todavía. Te dejo una presentación y un enlace a un tutorial para que te guies de ellos
+    CSS Grid es muy fácil de usar, sin embargo vas a necesitar algunas propiedades CSS que tal vez no conozcas todavía. Te dejo una presentación y un enlace a un tutorial, para que te guies de ellos
 
     1. [Presentación WWCode Sobre el tema](https://docs.google.com/presentation/d/1_lwC6CJiiBWORQxV20OGyd_pvy8covGrLvAKlAgePeo/edit?usp=sharing)
     2. [Gits con ejemplo](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -33,6 +33,8 @@
 -   Es muy fácil, tienes un archivo llamado `reto-3-js.html`, en este archivo vas a encontrar un HTML básico, con un `div` contenedor que tiene dentro un ÚNICO elemento HTML que tambiés es un `div` y tiene la clase `.element`. Tu reto consiste en escribir el CSS que te permite tener un layout `3X3` y ubicar el elemento `.element` en el centro de ese layout, es decir en la posición `2,2` de este... como se muestra en la figura.
 
 ![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/blob/master/reto_3/grid.png?raw=true)
+
+-   Además de eso, como me muestra la imagen, cada celda de nuestro layout debe tener una espacio de separación, usaremos `10px`
 
 -   Revisa las referencias que te puse en la descripción, verás que es muy fácil.
 
