@@ -9,13 +9,19 @@
 -   **Habilidades:** Concepto de DOM, CSS Grid
 -   **Descripción:**
 
-    La ubicación de los elementos del DOM en nuestra pantalla ha pasado de ser algo muy dificil, cuando se hacia con tablas y positioning, a ser algo relativamente fácil y hasta divertido, ahora con Flex Box o CSS Grid.
+    La ubicación de los elementos del DOM en nuestra pantalla ha pasado de ser algo muy dificil, cuando se hacia con tablas y positioning, a ser algo relativamente fácil y divertido, ahora que se hace con Flex Box o CSS Grid.
 
-    En este reto usarémos CSS Grid para ubicar un elemento dentro de la pantalla.
+    Para nuestro reto usaremos CSS GRID, un sistema que nos permite definir el layout de nuestras páginas usando dos dimensiones (filas y columnas). Su ventaja reside en que evita que escribamos HTML para posicionar elementos; es decir, nuestra markup queda exento de esa responsabilidad y por esa rázon nuestro maquetado se simplifica y que DIVIII, como nos gusta. Además de eso, por su naturaleza bi-dimensional, el CSS que debe escribirse para ubicar elementos en lugares complejos, dentro de nuestro maquetado HTML, se vuelve algo super simple... Te daré un ejemplo:
 
-    CSS Grid es un sistema que nos permite definir el layout de nuestras páginas usando dos dimensiones (filas y columnas), su ventaja reside en que evita que escribamos HTML para posicionar elementos; es decir, nuestra markup queda exento de esa responsabilidad y por esa rázon nuestro maquetado se simplifica y que DIVIII, como nos gusta.
+    Antes, cuando usabamos tablas para ubicar elementos, lo que debíamos hacer era escribir nuestro HTML de manera secuencial, es decir, si algo iba arriba, se escribía primero. Si no se hacía así todo se complicaba... y pensar en páginas responsive era casí imposible.
 
-    CSS Grid es muy fácil de usar, sin embargo vas a necesitar algunas propiedades de CSS que tal vez todavía. Te dejo una presentación y un enlace a un tutorial para que te guies de ellos
+    Ahora eso dejo de ser un problema ya que:
+
+    1. Yo puedo definir mi layout de la forma que yo quiera y SIN alterar el HTML.
+    2. Con mi layout ya definido, mis elementos HTML (Nodos del DOM) pueden ser ubicados en cualquier celda (fila, columna) definida con dicho layout.
+    3. Con CSS Grid puedo definir mi layout y dejar celdas vacias!!! Pero la forma del layout prevalece.
+
+    CSS Grid es muy fácil de usar, sin embargo vas a necesitar algunas propiedades de CSS que tal vez no conozcas todavía. Te dejo una presentación y un enlace a un tutorial para que te guies de ellos
 
     1. [Presentación WWCode Sobre el tema](https://docs.google.com/presentation/d/1_lwC6CJiiBWORQxV20OGyd_pvy8covGrLvAKlAgePeo/edit?usp=sharing)
     2. [Gits con ejemplo](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -24,12 +30,10 @@
 
 ## Instrucciones
 
--   Es muy fácil, tienes 3 archivos `.html` el primero llamado `reto-2-js.html`, en este archivo vas a encontrar un script de Javascript que manipula el DOM para insertar varios elementos y llegar a este resultado:
+-   Es muy fácil, tienes un archivo llamado `reto-3-js.html`, en este archivo vas a encontrar un HTML básico, con un `div` contenedor que tiene dentro un ÚNICO elemento HTML que tambiés es un `div` y tiene la clase `.element`. Tu reto consiste en escribir el CSS que te permite tener un layout `3X3` y ubicar el elemento `.element` en el centro de ese layout, es decir en la posición `2,2` de este... como se muestra en la figura.
 
-![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/blob/master/reto_2/resultado.png?raw=true)
+![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/blob/master/reto_3/grid.png?raw=true)
 
--   Lo que debes hacer es escribir el codigo React (solo) y React con JSX para llegar a ese exacto mismo resultado. Para eso te dejo los otros dos archivos `reto-2-react.html` y `reto-2-react-jsx.html` que ya estan listos con Babel para que uses React y JSX sin problemas en tu browser.
+-   Revisa las referencias que te puse en la descripción, verás que es muy fácil.
 
-## ¡¡NOS VEMOS EN EL RETO FINAL!!
-
-# ¡¡DIVIÉRTANSE!!
+## ¡¡ESTE ES NUESTRO RETO FINAL, Espero que hayas disfrutado y aprendido de este juego!!
