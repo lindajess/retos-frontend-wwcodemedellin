@@ -30,11 +30,11 @@
 
 ## Instrucciones
 
--   Es muy fácil, tienes un archivo llamado `reto-3-js.html`, en este archivo vas a encontrar un HTML básico, con un `div` contenedor que tiene dentro un ÚNICO elemento HTML que tambiés es un `div` y tiene la clase `.element`. Tu reto consiste en escribir el CSS que te permite tener un layout `3X3` y ubicar el elemento `.element` en el centro de ese layout, es decir en la posición `2,2` de este... como se muestra en la figura.
+-   Es muy fácil, tienes un archivo llamado `reto-3-js.html`, en este archivo vas a encontrar un HTML básico, con un `div` contenedor que tiene dentro un ÚNICO elemento HTML que tambiés es un `div` y tiene la clase `.element`. Tu reto consiste en escribir el CSS que te permite tener un layout `3X3` y ubicar el elemento `.element` en el centro de ese layout, es decir en la posición `2,2` de este... como se muestra en la siguiente imagen:
 
 ![alt text](https://github.com/lindajess/retos-frontend-wwcodemedellin/blob/master/reto_3/grid.png?raw=true)
 
--   Además de eso, como me muestra la imagen, cada celda de nuestro layout debe tener una espacio de separación, usaremos `10px`
+-   Además de eso, como muestra la imagen, cada celda de nuestro layout debe tener una espacio de separación, usaremos `10px`
 
 -   Revisa las referencias que te puse en la descripción, verás que es muy fácil.
 
