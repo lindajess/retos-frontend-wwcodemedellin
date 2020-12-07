@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX just js</title>
+    <!-- Estos scripts son para que puedas usar JSX y React y transpirarlos con BABEL -->
+    <script src="https://unpkg.com/react@16.8.6/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone@7.9.6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+<script type="text/babel">
+
+    const rootElement = document.getElementById('root')
+
+    // Escribe tu código aquí usando solo React *** sin JSX ***
+    // Enlaces para ver ejemplos:
+    // https://gist.github.com/lindajess/cd90625fdc8a9cbda80d539452b41a09
+    // https://www.instagram.com/p/CGs1Q1ejUSG/
+
+
+    const title = React.createElement('h1', {children: 'Cosas que amo'})
+
+    const item_1 = React.createElement('li', {children: 'Amo el código'})
+    const item_2 = React.createElement('li', {children: 'Amo bailar'})
+    const item_3 = React.createElement('li', {children: 'Amo NO cocinar'})
+
+    const lista = React.createElement('ul', {children: [item_1, item_2, item_3]})
+    const container = React.createElement('div', {children: [title, lista]} )
+
+    ReactDOM.render(container, rootElement)
+
+</script>
+
+</html>

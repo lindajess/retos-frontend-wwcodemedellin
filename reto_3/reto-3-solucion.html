@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX just js</title>
+</head>
+
+<style>
+    .container{
+        display: grid;
+        width: 1000px;
+        height: 1000px;
+
+        /*Escribe tu código aquí*/
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .element {
+        background-color: lightpink;
+        /*Escribe tu código aquí*/
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="element"></div>
+    </div>
+</body>
+
+</html>
